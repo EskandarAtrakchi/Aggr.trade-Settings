@@ -1,7 +1,7 @@
 {
   "version": 7,
-  "createdAt": 1767624685622,
-  "updatedAt": 1768995043383,
+  "createdAt": 1769093468471,
+  "updatedAt": 1769181992096,
   "name": "xxri copy 10",
   "id": "xxri-copy-10",
   "states": {
@@ -1829,7 +1829,7 @@
       "showRightScale": true,
       "showTimeScale": true,
       "hiddenMarkets": {},
-      "barSpacing": 10.46735342197768,
+      "barSpacing": 8.403951097174554,
       "_id": "chart"
     },
     "trades": {
@@ -1943,7 +1943,7 @@
       "sellColor": "rgb(239, 67, 82)",
       "timezoneOffset": 3600000,
       "useAudio": true,
-      "audioVolume": 0.74,
+      "audioVolume": 0.1,
       "audioFilters": {
         "PingPongDelay": true,
         "Compressor": false,
@@ -3912,7 +3912,7 @@
       "showRightScale": true,
       "showTimeScale": true,
       "hiddenMarkets": {},
-      "barSpacing": 11.492827727774456,
+      "barSpacing": 11.817754563485606,
       "_id": "chart copy 1"
     },
     "stats": {
@@ -3925,9 +3925,10 @@
           "name": "TRADES",
           "input": "cbuy + csell",
           "enabled": true,
-          "color": "rgba(255, 255, 255, .25)",
+          "color": "rgb(3,255,108)",
           "precision": 2,
-          "type": "line"
+          "type": "line",
+          "conditionnalColor": false
         },
         "vold": {
           "id": "vold",
@@ -3959,6 +3960,13 @@
         "untitled-bucket": {
           "id": "untitled-bucket",
           "name": "Untitled Bucket",
+          "input": "vbuy + vsell",
+          "enabled": false,
+          "conditionnalColor": false
+        },
+        "untitled-bucket-copy-1": {
+          "id": "untitled-bucket-copy-1",
+          "name": "Untitled Bucket copy 1",
           "input": "vbuy + vsell",
           "enabled": false,
           "conditionnalColor": false
@@ -4174,7 +4182,7 @@
       "showRightScale": true,
       "showTimeScale": true,
       "hiddenMarkets": {},
-      "barSpacing": 11.454406654310015,
+      "barSpacing": 7.692758859592783,
       "_id": "chart copy 2"
     },
     "chart copy 3": {
@@ -4272,7 +4280,7 @@
       "showRightScale": true,
       "showTimeScale": true,
       "hiddenMarkets": {},
-      "barSpacing": 21.891980188013843,
+      "barSpacing": 16.8019456923806,
       "_id": "chart copy 3"
     },
     "chart copy 4": {
@@ -4370,7 +4378,7 @@
       "showRightScale": true,
       "showTimeScale": true,
       "hiddenMarkets": {},
-      "barSpacing": 6.569905366744487,
+      "barSpacing": 4.028837373625749,
       "_id": "chart copy 4"
     },
     "avax": {
@@ -4472,7 +4480,7 @@
       "liquidations": [
         {
           "id": "liquidation_threshold",
-          "amount": 38000,
+          "amount": 8500,
           "buyColor": "rgba(236,64,122,0.5)",
           "sellColor": "rgba(255,152,0,0.5)",
           "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*2,0,,,'sine')\nplay(329.63, srqtR, srqtR*4,0.08,,,'sine')",
@@ -4480,7 +4488,7 @@
         },
         {
           "id": "liquidation_significant",
-          "amount": 76000,
+          "amount": 17000,
           "buyColor": "rgba(236,64,122,0.6)",
           "sellColor": "rgba(255,152,0,0.7)",
           "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
@@ -4488,7 +4496,7 @@
         },
         {
           "id": "liquidation_huge",
-          "amount": 152000,
+          "amount": 34000,
           "buyGif": "flying money",
           "sellGif": "flying money",
           "buyColor": "rgba(236,64,122,0.7)",
@@ -4498,7 +4506,7 @@
         },
         {
           "id": "liquidation_rare",
-          "amount": 760000,
+          "amount": 170000,
           "buyGif": "explosion",
           "sellGif": "explosion",
           "buyColor": "rgb(156,39,176)",
@@ -4510,7 +4518,7 @@
       "thresholds": [
         {
           "id": "threshold",
-          "amount": 76000,
+          "amount": 17000,
           "buyColor": "rgba(119, 148, 92, 0.25)",
           "sellColor": "rgba(239, 67, 82, 0.25)",
           "buyAudio": "play(659.26, gain / 10, 0.1 + gain / 7)",
@@ -4518,7 +4526,7 @@
         },
         {
           "id": "significant",
-          "amount": 190000,
+          "amount": 42500,
           "buyColor": "rgb(100, 157, 102)",
           "sellColor": "rgb(128,25,34)",
           "buyAudio": "play(659.26, 0.05 + gain / 10, 0.2 + ratio * 0.23,0,,0); play(830.6, 0.05 + gain / 10, 0.2 + ratio * 0.23, 0.08,,0)",
@@ -4526,7 +4534,7 @@
         },
         {
           "id": "huge",
-          "amount": 760000,
+          "amount": 170000,
           "buyGif": "cash bullish",
           "sellGif": "cash bearish",
           "buyColor": "rgb(59, 202, 109)",
@@ -4536,7 +4544,7 @@
         },
         {
           "id": "rare",
-          "amount": 7600000,
+          "amount": 1700000,
           "buyGif": "explosion",
           "sellGif": "explosion",
           "buyColor": "rgb(0, 255, 127)",
@@ -4559,7 +4567,7 @@
       "showTimeAgo": true,
       "showPrices": true,
       "showHistograms": true,
-      "thresholdsMultipler": 0.76,
+      "thresholdsMultipler": 0.17,
       "showAvgPrice": true,
       "_id": "alts"
     },
