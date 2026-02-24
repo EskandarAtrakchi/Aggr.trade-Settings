@@ -1,9 +1,9 @@
 {
   "version": 7,
-  "createdAt": 1753380315341,
-  "updatedAt": 1771951890093,
-  "name": "xxri",
-  "id": "xxri",
+  "createdAt": 1771952072186,
+  "updatedAt": 1771952294421,
+  "name": "xxri copy 1",
+  "id": "xxri-copy-1",
   "states": {
     "panes": {
       "_id": "panes",
@@ -94,9 +94,9 @@
           "i": "chart copy 4",
           "type": "chart",
           "x": 0,
-          "y": 12,
+          "y": 16,
           "w": 6,
-          "h": 6,
+          "h": 4,
           "moved": false
         },
         {
@@ -130,9 +130,9 @@
           "i": "chart copy 5",
           "type": "chart",
           "x": 0,
-          "y": 18,
+          "y": 20,
           "w": 6,
-          "h": 6,
+          "h": 4,
           "moved": false
         },
         {
@@ -141,7 +141,7 @@
           "x": 0,
           "y": 0,
           "w": 6,
-          "h": 12,
+          "h": 16,
           "moved": false
         }
       ],
@@ -221,7 +221,7 @@
           "settings": {
             "showLiquidations": false
           },
-          "zoom": 1.25
+          "zoom": 1
         },
         "chart copy 1": {
           "id": "chart copy 1",
@@ -635,7 +635,8 @@
             "DERIBIT:BTC-PERPETUAL",
             "OKEX:BTC-USD-SWAP",
             "OKEX:BTC-USDT-SWAP"
-          ]
+          ],
+          "zoom": 1.375
         },
         "website": {
           "id": "website",
@@ -864,7 +865,7 @@
           "id": "avax",
           "name": "BTC",
           "type": "trades",
-          "zoom": 1.25,
+          "zoom": 1,
           "settings": {
             "liquidations": [
               {
@@ -994,7 +995,7 @@
           "id": "sui",
           "name": "ALTs",
           "type": "trades",
-          "zoom": 1.25,
+          "zoom": 1,
           "settings": {
             "liquidations": [
               {
@@ -1631,7 +1632,7 @@
           "id": "sui copy 1",
           "name": "ETH",
           "type": "trades",
-          "zoom": 1.25,
+          "zoom": 1,
           "settings": {
             "liquidations": [
               {
@@ -2660,14 +2661,14 @@
       "showRightScale": true,
       "showTimeScale": true,
       "hiddenMarkets": {},
-      "barSpacing": 7.151716169979758,
+      "barSpacing": 7.2484301912592315,
       "_id": "chart"
     },
     "trades": {
       "liquidations": [
         {
           "id": "liquidation_threshold",
-          "amount": 27000,
+          "amount": 25000,
           "buyColor": "rgba(236,64,122,0.5)",
           "sellColor": "rgba(255,152,0,0.5)",
           "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*2,0,,,'sine')\nplay(329.63, srqtR, srqtR*4,0.08,,,'sine')",
@@ -2675,7 +2676,7 @@
         },
         {
           "id": "liquidation_significant",
-          "amount": 54000,
+          "amount": 50000,
           "buyColor": "rgba(236,64,122,0.6)",
           "sellColor": "rgba(255,152,0,0.7)",
           "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
@@ -2683,7 +2684,7 @@
         },
         {
           "id": "liquidation_huge",
-          "amount": 108000,
+          "amount": 100000,
           "buyGif": "flying money",
           "sellGif": "flying money",
           "buyColor": "rgba(236,64,122,0.7)",
@@ -2693,7 +2694,7 @@
         },
         {
           "id": "liquidation_rare",
-          "amount": 540000,
+          "amount": 500000,
           "buyGif": "explosion",
           "sellGif": "explosion",
           "buyColor": "rgb(156,39,176)",
@@ -2705,7 +2706,7 @@
       "thresholds": [
         {
           "id": "threshold",
-          "amount": 54000,
+          "amount": 50000,
           "buyColor": "rgba(119, 148, 92, 0.25)",
           "sellColor": "rgba(239, 67, 82, 0.25)",
           "buyAudio": "play(659.26, gain / 10, 0.1 + gain / 7)",
@@ -2713,7 +2714,7 @@
         },
         {
           "id": "significant",
-          "amount": 135000,
+          "amount": 125000,
           "buyColor": "rgb(100, 157, 102)",
           "sellColor": "rgb(128,25,34)",
           "buyAudio": "play(659.26, 0.05 + gain / 10, 0.2 + ratio * 0.23,0,,0); play(830.6, 0.05 + gain / 10, 0.2 + ratio * 0.23, 0.08,,0)",
@@ -2721,7 +2722,7 @@
         },
         {
           "id": "huge",
-          "amount": 540000,
+          "amount": 500000,
           "buyGif": "cash bullish",
           "sellGif": "cash bearish",
           "buyColor": "rgb(59, 202, 109)",
@@ -2731,7 +2732,7 @@
         },
         {
           "id": "rare",
-          "amount": 5400000,
+          "amount": 5000000,
           "buyGif": "explosion",
           "sellGif": "explosion",
           "buyColor": "rgb(0, 255, 127)",
@@ -2754,7 +2755,7 @@
       "showTimeAgo": true,
       "showPrices": true,
       "showHistograms": true,
-      "thresholdsMultipler": 0.54,
+      "thresholdsMultipler": 0.5,
       "showAvgPrice": true,
       "_id": "trades"
     },
@@ -7747,7 +7748,7 @@
       "showRightScale": true,
       "showTimeScale": true,
       "hiddenMarkets": {},
-      "barSpacing": 9.555819553697233,
+      "barSpacing": 9.72540758279829,
       "_id": "chart copy 1"
     },
     "stats": {
@@ -8002,7 +8003,7 @@
       "showRightScale": true,
       "showTimeScale": true,
       "hiddenMarkets": {},
-      "barSpacing": 11.655138158377351,
+      "barSpacing": 11.903776436099898,
       "_id": "chart copy 2"
     },
     "chart copy 3": {
@@ -8100,7 +8101,7 @@
       "showRightScale": true,
       "showTimeScale": true,
       "hiddenMarkets": {},
-      "barSpacing": 13.220985131057125,
+      "barSpacing": 13.552802540068987,
       "_id": "chart copy 3"
     },
     "chart copy 4": {
@@ -8198,7 +8199,7 @@
       "showRightScale": true,
       "showTimeScale": true,
       "hiddenMarkets": {},
-      "barSpacing": 13.689175314213855,
+      "barSpacing": 14.246378672025376,
       "_id": "chart copy 4"
     },
     "avax": {
@@ -8581,14 +8582,14 @@
       "showRightScale": true,
       "showTimeScale": true,
       "hiddenMarkets": {},
-      "barSpacing": 14.256737744681237,
+      "barSpacing": 14.873140244403094,
       "_id": "chart copy 5"
     },
     "trades-lite": {
       "liquidations": [
         {
           "id": "liquidation_threshold",
-          "amount": 79999.99999999996,
+          "amount": 49999.99999999997,
           "buyColor": "rgba(236,64,122,0.5)",
           "sellColor": "rgba(255,152,0,0.5)",
           "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*2,0,,,'sine')\nplay(329.63, srqtR, srqtR*4,0.08,,,'sine')",
@@ -8596,7 +8597,7 @@
         },
         {
           "id": "liquidation_significant",
-          "amount": 159999.9999999999,
+          "amount": 99999.99999999994,
           "buyColor": "rgba(236,64,122,0.6)",
           "sellColor": "rgba(255,152,0,0.7)",
           "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
@@ -8604,7 +8605,7 @@
         },
         {
           "id": "liquidation_huge",
-          "amount": 319999.9999999998,
+          "amount": 199999.99999999988,
           "buyGif": "flying money",
           "sellGif": "flying money",
           "buyColor": "rgba(236,64,122,0.7)",
@@ -8614,7 +8615,7 @@
         },
         {
           "id": "liquidation_rare",
-          "amount": 1599999.999999999,
+          "amount": 999999.9999999995,
           "buyGif": "explosion",
           "sellGif": "explosion",
           "buyColor": "rgb(156,39,176)",
@@ -8626,7 +8627,7 @@
       "thresholds": [
         {
           "id": "threshold",
-          "amount": 159999.9999999999,
+          "amount": 99999.99999999994,
           "buyColor": "rgba(119, 148, 92, 0.25)",
           "sellColor": "rgba(239, 67, 82, 0.25)",
           "buyAudio": "play(659.26, gain / 10, 0.1 + gain / 7)",
@@ -8634,7 +8635,7 @@
         },
         {
           "id": "significant",
-          "amount": 399999.99999999977,
+          "amount": 249999.99999999988,
           "buyColor": "rgb(100, 157, 102)",
           "sellColor": "rgb(239, 67, 82)",
           "buyAudio": "play(659.26, 0.05 + gain / 10, 0.2 + ratio * 0.23,0,,0); play(830.6, 0.05 + gain / 10, 0.2 + ratio * 0.23, 0.08,,0)",
@@ -8642,7 +8643,7 @@
         },
         {
           "id": "huge",
-          "amount": 1599999.999999999,
+          "amount": 999999.9999999995,
           "buyGif": "cash bullish",
           "sellGif": "cash bearish",
           "buyColor": "rgb(59, 202, 109)",
@@ -8652,7 +8653,7 @@
         },
         {
           "id": "rare",
-          "amount": 15999999.999999994,
+          "amount": 9999999.999999998,
           "buyGif": "explosion",
           "sellGif": "explosion",
           "buyColor": "rgb(0, 255, 127)",
@@ -8675,7 +8676,7 @@
       "showTimeAgo": true,
       "showPrices": true,
       "showHistograms": true,
-      "thresholdsMultipler": 1.6,
+      "thresholdsMultipler": 1,
       "showAvgPrice": true,
       "_id": "trades-lite"
     }
